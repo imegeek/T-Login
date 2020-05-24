@@ -16,7 +16,7 @@ command -v nano > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require nano but 
 command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[0m"; pkg install python -y; clear; bash t-login.sh; }
 
 sleep 0.5
-echo -e '\033[1;93m
+echo -e '
 
                                                                  ┏━━━━━┓
                                                                  ┃ ┏━┓ ┃
