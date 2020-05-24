@@ -1,4 +1,3 @@
-
 clear
 toilet -f mono12 -F gay -F border ABHackerOfficial | lolcat -a -d 1 -t -s 100
 date | lolcat -a -t
