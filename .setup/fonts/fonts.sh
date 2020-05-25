@@ -394,7 +394,7 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
-printf "\e[1;92m                          [?] Are You Want to Change Fonts Again?\e[0m\n"
+printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
 elif [[ $font = "y" ]] || [[ $font = "Y" ]]
         then bash fonts.sh
 
