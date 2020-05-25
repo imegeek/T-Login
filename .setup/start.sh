@@ -1,6 +1,6 @@
 clear
-printf "\e[1;92m                                   [!] Choose a Font: \e[0m"
 sleep 0.5
+printf "\e[1;92m                                   [!] Choose a Font: \e[0m"
 read font
     if [[ $font = "1" ]] || [[ $font = "01" ]]
         then echo
