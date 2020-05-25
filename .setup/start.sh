@@ -1,48 +1,68 @@
-clear
-toilet -f mono12 -F gay -F border ABHackerOfficial | lolcat -a -d 1 -t -s 100
-date | lolcat -a -t
-trap '' 2
-printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"
-sleep 2
-trap 5
-read user
-if [[ $user = "123" ]]
-then
-printf $"\n\e[1;92mPassword \e[0m: \e[1;92m"
-else echo &&  echo -e "\033[1;91m[!] Wrong Username!"
 sleep 0.5
-kill -9 $PPID
-sleep 0.5
-echo
-echo -e "\033[0m[\033[1;91mx\033[0m] \033[1;91mLogin failed, You can't access; restart termux\033[0m"
-sleep 2
-clear
-bash tlock
-fi
-read -s pass
-echo
-if [[ $pass = "1234" ]]
-then sleep 0.2
-echo
-echo -ne '[?] Checking...\r'
-sleep 0.4
-echo -ne '[√] Checking...\r'
-sleep 0.4
-echo
-echo && echo -e "\033[1;93m[!] Please wait..."
-sleep 1
-clear
-toilet -f mono12 -F gay -F border ABHackerOfficial | lolcat -a -d 1 -t -s 100
-date | lolcat -a -t
-else
-echo
-echo -ne '[?] Checking...\r'
-sleep 0.4
-echo -ne '[x] Checking...\r'
-sleep 0.4
-echo
-echo && echo -e "\033[1;91m[!] Wrong Password!"
-sleep 1
-clear
-bash tlock
-fi
+echo '
+                              ╦  ┌─┐┌─┐┬┌┐┌  ╔═╗┌─┐┌─┐┌─┐
+                              ║  │ ││ ┬││││  ╠═╝├─┤│ ┬├┤
+                              ╩═╝└─┘└─┘┴┘└┘  ╩  ┴ ┴└─┘└─┘' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+read name
+printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+read username
+printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+read password
+cd $HOME && cd ../usr/etc/bin && rm tlock > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
+cd $HOME && cd ../usr/bin
+
+#setup log.py
+
+
+echo 'clear' > tlock
+echo 'toilet -f mono12 -F gay -F border "$name" | lolcat -a -d 1 -t -s 100
+date | lolcat -a -t' >> tlock
+echo 'trap '' 2' >> tlock
+echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
+echo 'sleep 2' >> tlock
+echo 'trap 5' >> tlock
+echo 'read user' >> tlock
+echo 'if [[ $user = "'$username'" ]]' >> tlock
+echo 'then' >> tlock
+echo 'printf $"\n\e[1;92mPassword \e[0m: \e[1;92m"' >> tlock
+echo 'else echo &&  echo -e "\033[1;91m[!] Wrong Username!"' >> tlock
+echo 'sleep 0.5' >> tlock
+echo 'kill -9 $PPID' >> tlock
+echo 'sleep 0.5' >> tlock
+echo 'echo' >> tlock
+echo 'echo -e "\033[0m[\033[1;91mx\033[0m] \033[1;91mLogin failed, You can't access; restart termux\033[0m"' >> tlock
+echo 'sleep 2' >> tlock
+echo 'clear' >> tlock
+echo 'bash tlock' >> tlock
+echo 'fi' >> tlock
+echo 'read -s pass' >> tlock
+echo 'echo' >> tlock
+echo 'if [[ $pass = "'$password'" ]]' >> tlock
+echo 'then sleep 0.2' >> tlock
+echo 'echo' >> tlock
+echo 'echo -ne '[?] Checking...\r'" >> tlock
+echo 'sleep 0.4' >> tlock
+echo "echo -ne '[√] Checking...\r'" >> tlock
+echo 'sleep 0.4' >> tlock
+echo 'echo' >> tlock
+echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
+echo 'sleep 1' >> tlock
+echo 'clear' >> tlock
+echo 'toilet -f mono12 -F gay -F border "$name" | lolcat -a -d 1 -t -s 100
+date | lolcat -a -t' >> tlock
+echo 'else' >> tlock
+echo 'echo' >> tlock
+echo "echo -ne '[?] Checking...\r'" >>. tlock
+echo 'sleep 0.4' >> tlock
+echo "echo "echo -ne '[x] Checking...\r'" >> tlock
+sleep 0.4' >> tlock
+echo 'echo' >> tlock
+echo 'echo && echo -e "\033[1;91m[!] Wrong Password!"' >> tlock
+echo 'sleep 1' >> tlock
+echo 'clear' >> tlock
+echo 'bash tlock' >> tlock
+echo 'fi' >> tlock
