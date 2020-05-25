@@ -393,7 +393,9 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 echo
-exec sleep 1
+printf "\e[1;92m                          [?] Are You Want to Change Fonts Again?\e[0m\n"
+elif [[ $font = "5" ]] || [[ $font = "05" ]]
+        then exec sleep 1
 else 
 echo
 printf "\e[1;91m                          [!] Invalid option! ~Restarting..\e[0m\n"
