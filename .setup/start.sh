@@ -13,7 +13,7 @@ cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
-cd $HOME && cd ../usr/bin
+cd $HOME && cd ../usr/etc
 
 #setup log.py
 echo 'clear' > tlock
