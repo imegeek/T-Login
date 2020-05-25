@@ -18,11 +18,14 @@ cd $HOME && cd ../usr/etc
 
 #setup tlock
 echo 'clear' > tlock
+echo "trap '' 2" >> tlock
 echo 'toilet -f mono12 -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'sleep 0' >> tlock
+echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
-echo 'sleep 2' >> tlock
+echo 'sleep 1' >> tlock
 echo 'trap 5' >> tlock
 echo 'read user' >> tlock
 echo 'if [[ $user = "'$username'" ]]' >> tlock
