@@ -99,10 +99,11 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
-read Q
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
-        then bash fonts.sh
+        then cd .. && bash fonts.sh
+fi
 
 elif [[ $font = "2" ]] || [[ $font = "02" ]]
         then echo
@@ -201,10 +202,11 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
-read Q
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
-        then bash fonts.sh
+        then cd .. && bash fonts.sh
+fi
 
 elif [[ $font = "3" ]] || [[ $font = "03" ]]
         then echo
@@ -302,10 +304,11 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
-read Q
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
-        then bash fonts.sh
+        then cd .. && bash fonts.sh
+fi
 
 elif [[ $font = "4" ]] || [[ $font = "04" ]]
         then echo
@@ -404,10 +407,11 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
-read Q
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
-        then bash fonts.sh
+        then cd .. && bash fonts.sh
+fi
 
 elif [[ $font = "5" ]] || [[ $font = "05" ]]
         then exec sleep 1
