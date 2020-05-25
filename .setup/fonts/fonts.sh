@@ -1,3 +1,4 @@
+clear
 printf "\e[1;92m                          [!] Choose Font: \e[0m\n"
 sleep 0.5
 read font
@@ -391,8 +392,12 @@ echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+
 echo
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again?\e[0m\n"
+elif [[ $font = "y" ]] || [[ $font = "Y" ]]
+        then bash fonts.sh
+
 elif [[ $font = "5" ]] || [[ $font = "05" ]]
         then exec sleep 1
 else 
