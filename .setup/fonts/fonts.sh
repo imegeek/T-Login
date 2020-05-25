@@ -97,8 +97,12 @@ echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+
 echo
-exec sleep 1
+read Q&A
+printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+if [[ $Q&A = "y" ]] || [[ $Q&A = "Y" ]]
+        then bash fonts.sh
 
 elif [[ $font = "2" ]] || [[ $font = "02" ]]
         then echo
@@ -195,9 +199,12 @@ echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
-echo
-exec sleep 1
 
+echo
+read Q&A
+printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+if [[ $Q&A = "y" ]] || [[ $Q&A = "Y" ]]
+        then bash fonts.sh
 
 elif [[ $font = "3" ]] || [[ $font = "03" ]]
         then echo
@@ -293,9 +300,12 @@ echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
-echo
-exec sleep 1
 
+echo
+read Q&A
+printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
+if [[ $Q&A = "y" ]] || [[ $Q&A = "Y" ]]
+        then bash fonts.sh
 
 elif [[ $font = "4" ]] || [[ $font = "04" ]]
         then echo
@@ -394,8 +404,9 @@ sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 echo
+read Q&A
 printf "\e[1;92m                          [?] Are You Want to Change Fonts Again : \e[0m\n"
-elif [[ $font = "y" ]] || [[ $font = "Y" ]]
+if [[ $Q&A = "y" ]] || [[ $Q&A = "Y" ]]
         then bash fonts.sh
 
 elif [[ $font = "5" ]] || [[ $font = "05" ]]
