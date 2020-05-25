@@ -1,4 +1,4 @@
-cd $HOME && cd ../usr/etc && rm log.py > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
 sleep 3.0
