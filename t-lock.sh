@@ -13,7 +13,7 @@ command -v ruby > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require ruby but 
 command -v lolcat > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require lolcat but it's not installed, Now Installing.\e[0m"; gem install lolcat; clear; }
 command -v wget > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require wget but it's not installed, Now Installing.\e[0m"; pkg install wget -y; clear; }
 command -v nano > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require nano but it's not installed, Now Installing.\e[0m"; pkg install nano -y; clear; }
-command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[0m"; pkg install python -y; clear; bash t-login.sh; }
+command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[0m"; pkg install python -y; clear; bash t-lock.sh; }
 
 sleep 0.5
 echo -e '
