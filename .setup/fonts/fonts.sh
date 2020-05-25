@@ -7,7 +7,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cp 'ANSI S' $PREFIX/share/figlet > /dev/null 2>&1
+cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
