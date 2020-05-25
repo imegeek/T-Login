@@ -98,6 +98,7 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
+sleep 0.4
 echo
 printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
 read Q
@@ -201,6 +202,7 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
+sleep 0.4
 echo
 printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
 read Q
@@ -303,6 +305,7 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
+sleep 0.4
 echo
 printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
 read Q
@@ -406,6 +409,7 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
 echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
+sleep 0.4
 echo
 printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
 read Q
