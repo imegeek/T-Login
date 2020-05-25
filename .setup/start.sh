@@ -100,7 +100,7 @@ echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to
 
 sleep 0.4
 echo
-printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
+printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -204,7 +204,7 @@ echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to
 
 sleep 0.4
 echo
-printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
+printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -307,7 +307,7 @@ echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to
 
 sleep 0.4
 echo
-printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
+printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -411,7 +411,7 @@ echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to
 
 sleep 0.4
 echo
-printf "\e[1;92m                       [?] Are You Want to Change Fonts Again [Y/n] : \e[0m"
+printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
