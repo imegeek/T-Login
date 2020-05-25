@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Author : ABHacker Official
-# Copyright ©2020
+# Copyright ©2020-25-May
 # Script follows here:
 
 clear
