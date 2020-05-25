@@ -6,8 +6,8 @@ read username
 printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
-
 #setup
+cp 'ANSI R' $PREFIX/share/figlet
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
