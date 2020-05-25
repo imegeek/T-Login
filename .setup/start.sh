@@ -18,14 +18,14 @@ cd $HOME && cd ../usr/etc
 
 #setup tlock
 echo 'clear' > tlock
-echo 'toilet -f mono12 -F gay -F border ABHackerOfficial | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f mono12 -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 2' >> tlock
 echo 'trap 5' >> tlock
 echo 'read user' >> tlock
-echo 'if [[ $user = "123" ]]' >> tlock
+echo 'if [[ $user = "'$username'" ]]' >> tlock
 echo 'then' >> tlock
 echo 'printf $"\n\e[1;92mPassword \e[0m: \e[1;92m"' >> tlock
 echo 'else echo &&  echo -e "\033[1;91m[!] Wrong Username!"' >> tlock
@@ -40,7 +40,7 @@ echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> tlock
 echo 'fi' >> tlock
 echo 'read -s pass' >> tlock
 echo 'echo' >> tlock
-echo 'if [[ $pass = "1234" ]]' >> tlock
+echo 'if [[ $pass = "'$password'" ]]' >> tlock
 echo 'then sleep 0.2' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -51,7 +51,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f mono12 -F gay -F border ABHackerOfficial | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f mono12 -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
