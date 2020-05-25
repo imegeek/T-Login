@@ -12,7 +12,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -115,7 +115,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -320,7 +320,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
