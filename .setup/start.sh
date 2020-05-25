@@ -9,15 +9,13 @@ printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] 
 read username
 printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
-cd $HOME && cd ../usr/etc/bin && rm tlock > /dev/null 2>&1
+cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
 cd $HOME && cd ../usr/bin
 
 #setup log.py
-
-
 echo 'clear' > tlock
 echo 'toilet -f mono12 -F gay -F border "$name" | lolcat -a -d 1 -t -s 100
 date | lolcat -a -t' >> tlock
@@ -66,3 +64,30 @@ echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'bash tlock' >> tlock
 echo 'fi' >> tlock
+
+echo
+sleep 2.0
+#setup bash.bashrc
+echo 'if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then' > bash.bashrc
+echo '        command_not_found_handle() {' >> bash.bashrc
+echo '                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"' >> bash.bashrc
+echo '        }' >> bash.bashrc
+echo 'fi' >> bash.bashrc
+echo >> bash.bashrc
+echo "PS1='\$ '" >> bash.bashrc
+echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> bash.bashrc
+
+#setup zshrc
+echo '. /data/data/com.termux/files/usr/etc/profile' > zshrc
+echo 'command_not_found_handler() {' >> zshrc
+echo '        /data/data/com.termux/files/usr/libexec/termux/command-not-found $1' >> zshrc
+echo '}' >> zshrc
+echo '#set nomatch so *.sh would not error if no file is available' >> zshrc
+echo 'setopt +o nomatch' >> zshrc
+echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
+echo "PS1='%# '" >> zshrc
+echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
+sleep 0.5
+echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo
+exec sleep 1
