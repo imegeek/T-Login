@@ -419,5 +419,5 @@ else
 echo
 printf "\e[1;91m                          [!] Invalid option! ~Restarting..\e[0m\n"
 sleep 0.8
-bash fonts.sh
+bash start.sh
 fi
