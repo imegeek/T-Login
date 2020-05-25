@@ -17,7 +17,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI S" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
