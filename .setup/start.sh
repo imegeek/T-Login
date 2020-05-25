@@ -57,16 +57,16 @@ echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >>. tlock
 echo 'sleep 0.4' >> tlock
 echo "echo "echo -ne '[x] Checking...\r'" >> tlock
-sleep 0.4' >> tlock
+echo 'sleep 0.4' >> tlock
 echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;91m[!] Wrong Password!"' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'bash tlock' >> tlock
 echo 'fi' >> tlock
+echo 'echo' >> tlock
+echo 'sleep 2.0' >> tlock
 
-echo
-sleep 2.0
 #setup bash.bashrc
 echo 'if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then' > bash.bashrc
 echo '        command_not_found_handle() {' >> bash.bashrc
