@@ -1053,6 +1053,10 @@ if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
 fi
 
+elif [[ $font = "p" ]] || [[ $font = "P" ]]
+        then clear
+
+
 elif [[ $font = "e" ]] || [[ $font = "E" ]]
         then exec sleep 1
 else 
