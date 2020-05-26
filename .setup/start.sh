@@ -11,7 +11,7 @@ echo
 echo -e '             \033[1;100m     [10] sblood  \033[1;104m     [P] Preview Fonts   \033[101m    [E] Exit   \033[0m'
 echo
 
-printf "\e[1;92m                                   [!] Choose a Font: \e[1;97m"
+printf "\e[1;93m                                   [!] Choose a Font: \e[1;93m"
 read font
     if [[ $font = "1" ]] || [[ $font = "01" ]]
         then echo
