@@ -1055,7 +1055,10 @@ fi
 
 elif [[ $font = "p" ]] || [[ $font = "P" ]]
         then clear
-
+printf "\e[0m[\e[1;92m*\e[0m]\e[1;92m Press Enter To Back: \e[1;93m"
+read a1
+sleep 0.4
+bash start.sh
 
 elif [[ $font = "e" ]] || [[ $font = "E" ]]
         then exec sleep 1
