@@ -79,7 +79,7 @@ echo '
    exit
 fi
 #Upading
-cd .. && cd .. && rm -rf T-Login
+cd .. && cd .. && rm -rf T-Lock
 git clone https://github.com/abhackerofficial/T-Lock > /dev/null 2>&1
 
 echo -ne '          [✓] Update complete |███████████████████████████████|   (100%)\r' | lolcat -t
