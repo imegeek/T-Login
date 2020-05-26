@@ -2,7 +2,7 @@ clear
 sleep 0.5
 
 echo
-echo -e '          \033[1;100m    [1] ANSI S    \033[1;104m     [2] ANSI R   \033[101m  [3] Block   \033[0m'
+echo -e '             \033[1;100m    [1] ANSI S    \033[1;104m     [2] ANSI R   \033[101m  [3] Block   \033[0m'
 echo
 echo -e '                  \033[1;100m  [4] mono12    \033[1;104m  [5] Cybermedium \033[101m [6] Fire Font-s \033[0m'
 echo
