@@ -220,7 +220,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Block.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -230,7 +230,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Block" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -265,7 +265,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Block" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -427,7 +427,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Cybermedium.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -437,7 +437,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Cybermedium" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -472,7 +472,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Cybermedium" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -532,7 +532,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Fire Font-s.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -542,7 +542,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Fire Font-s" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -577,7 +577,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Fire Font-s" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -636,7 +636,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Kban.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -646,7 +646,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Kban" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -681,7 +681,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Kban" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -740,7 +740,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Shadow.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -750,7 +750,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Shadow" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -785,7 +785,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Shadow" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -844,7 +844,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI R.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'Sub-Zero.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -854,7 +854,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Sub-Zero" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -889,7 +889,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "Sub-Zero" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
@@ -948,7 +948,7 @@ printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] 
 read password
 
 #setup
-cd fonts && cp 'ANSI S.flf' $PREFIX/share/figlet > /dev/null 2>&1
+cd fonts && cp 'sblood.flf' $PREFIX/share/figlet > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm motd > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
@@ -958,7 +958,7 @@ cd $HOME && cd ../usr/etc
 #setup tlock
 echo 'clear' > tlock
 echo "trap '' 2" >> tlock
-echo 'toilet -f "ANSI S" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "sblood" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
 echo 'date | lolcat -a -t' >> tlock
@@ -993,7 +993,7 @@ echo 'echo' >> tlock
 echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
-echo 'toilet -f "ANSI S" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
+echo 'toilet -f "sblood.flf" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
