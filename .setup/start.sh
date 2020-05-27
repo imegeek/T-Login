@@ -23,11 +23,11 @@ printf "                                  \e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m[
 read font
     if [[ $font = "1" ]] || [[ $font = "01" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -127,11 +127,11 @@ fi
 
 elif [[ $font = "2" ]] || [[ $font = "02" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -231,11 +231,11 @@ fi
 
 elif [[ $font = "3" ]] || [[ $font = "03" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -335,11 +335,11 @@ fi
 
 elif [[ $font = "4" ]] || [[ $font = "04" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -438,11 +438,11 @@ fi
 
 elif [[ $font = "5" ]] || [[ $font = "05" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -543,11 +543,11 @@ fi
 
 elif [[ $font = "6" ]] || [[ $font = "06" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -647,11 +647,11 @@ fi
 
 elif [[ $font = "7" ]] || [[ $font = "07" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -751,11 +751,11 @@ fi
 
 elif [[ $font = "8" ]] || [[ $font = "08" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -855,11 +855,11 @@ fi
 
 elif [[ $font = "9" ]] || [[ $font = "09" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -959,11 +959,11 @@ fi
 
 elif [[ $font = "10" ]]
         then echo
-printf $'\n\e[1;96m                               [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+printf $'\n\e[1;96m                             [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                               [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m                             [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                               [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m                             [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
