@@ -44,7 +44,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "ANSI S" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -77,7 +77,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "ANSI S" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -148,7 +148,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -181,7 +181,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "ANSI R" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -252,7 +252,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Block" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -285,7 +285,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "Block" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -355,7 +355,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f mono12 -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -388,7 +388,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f mono12 -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -459,7 +459,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Cybermedium" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -492,7 +492,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "Cybermedium" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -564,7 +564,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Fire Font-s" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -597,7 +597,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "Fire Font-s" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -668,7 +668,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Kban" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -701,7 +701,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "Kban" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -772,7 +772,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Shadow" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -805,7 +805,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "Shadow" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
@@ -876,7 +876,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "Sub-Zero" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -980,7 +980,7 @@ echo "trap '' 2" >> tlock
 echo 'toilet -f "sblood" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
 echo 'sleep 0' >> tlock
 echo 'trap 5' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo "trap '' 2" >> tlock
 echo 'printf $"\n\e[1;94mUsername \e[0m: \e[1;94m"' >> tlock
 echo 'sleep 1' >> tlock
@@ -1013,7 +1013,7 @@ echo 'echo && echo -e "\033[1;93m[!] Please wait..."' >> tlock
 echo 'sleep 1' >> tlock
 echo 'clear' >> tlock
 echo 'toilet -f "sblood.flf" -F gay -F border '$name' | lolcat -a -d 1 -t -s 100' >> tlock
-echo 'date | lolcat -a -t' >> tlock
+echo 'printf "\e[1m" && date | lolcat -a -t' >> tlock
 echo 'else' >> tlock
 echo 'echo' >> tlock
 echo "echo -ne '[?] Checking...\r'" >> tlock
