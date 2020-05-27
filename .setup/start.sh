@@ -19,7 +19,7 @@ echo
 echo -e '                    \033[1;100m     [10] sblood  \033[1;104m [P] Preview Fonts \033[101m  [E] Exit   \033[0m'
 echo
 
-printf "                                \e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m[\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m!\e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m]\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m Choose a Font: \e[0m"
+printf "                                  \e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m[\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m!\e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m]\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m Choose a Font: \e[0m"
 read font
     if [[ $font = "1" ]] || [[ $font = "01" ]]
         then echo
