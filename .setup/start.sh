@@ -1114,7 +1114,7 @@ fi
 
 elif [[ $font = "p" ]] || [[ $font = "P" ]]
         then clear
-cd fonts && bash fonts preview.sh
+cd fonts && bash preview.sh
 printf "\e[0m[\e[1;92m*\e[0m]\e[1;92m Press Enter To Back: \e[1;93m"
 read a1
 sleep 0.4
