@@ -1,8 +1,8 @@
 sleep 0.5
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 echo
 echo -ne '        [⬇] T-Lock Updating... |████|                            (10%)\r' | lolcat -t
 sleep 0.1
@@ -12,9 +12,9 @@ connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then clear
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 
    echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
@@ -27,9 +27,9 @@ connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then clear
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 
    echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
@@ -42,9 +42,9 @@ connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then clear
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 
    echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
@@ -57,9 +57,9 @@ connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then clear
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 
    echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
@@ -71,9 +71,9 @@ connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
 if [[ "$connection" != 0 ]]
 then clear
 echo '
-                                   ╦ ╦┌─┐┌┬┐┌─┐┌┬┐┌─┐
-                                   ║ ║├─┘ ││├─┤ │ ├┤
-                                   ╚═╝┴  ─┴┘┴ ┴ ┴ └─┘' | lolcat -t -a -d 1 -s 100
+
+                           █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
+                           █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
 
    echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
    exit
