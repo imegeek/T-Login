@@ -15,8 +15,9 @@ echo '
 
                              █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
                              █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
-
-   echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
+   echo -e "\033[1;91m                               [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
    exit
 fi
 echo -ne '      [⬇] T-Lock Updating... |████████|                        (30%)\r' | lolcat -t
@@ -30,8 +31,9 @@ echo '
 
                              █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
                              █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
-
-   echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
+   echo -e "\033[1;91m                               [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
    exit
 fi
 echo -ne '      [⬇] T-Lock Updating... |██████████████|                  (50%)\r' | lolcat -t
@@ -45,8 +47,9 @@ echo '
 
                              █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
                              █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
-
-   echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
+   echo -e "\033[1;91m                               [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
    exit
 fi
 echo -ne '      [⬇] T-Lock Updating... |█████████████████████|           (70%)\r' | lolcat -t
@@ -60,8 +63,9 @@ echo '
 
                              █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
                              █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
-
-   echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
+   echo -e "\033[1;91m                               [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
    exit
 fi
 echo -ne '      [⬇] T-Lock Updating... |██████████████████████████|      (90%)\r' | lolcat -t
@@ -74,8 +78,9 @@ echo '
 
                              █ █ █▀█ █▀▄ ▄▀█ ▀█▀ █ █▄ █ █▀▀
                              █▄█ █▀▀ █▄▀ █▀█  █  █ █ ▀█ █▄█ ▄ ▄ ▄' | lolcat -a -d 1 -t -s 100
-
-   echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
+   echo -e "\033[1;91m                               [\033[1;92m-\033[1;91m] No Internet\033[1;92m connection!"
+   echo
    exit
 fi
 #Upading
