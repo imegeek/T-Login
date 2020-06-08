@@ -6,7 +6,7 @@
 
 #checking dir?
 clear
-if [ ! -d "$HOME/T-Lyock" ]; then
+if [ ! -d "$HOME/T-Lock" ]; then
 echo -e '\033[1;91m[!] Install T-Lock to $HOME Diretory, Case T-Lock Not Works Properly.\033[0m'
 fi
 
