@@ -4,7 +4,11 @@
 # Copyright : ©2020-25-May
 # Script follows here:
 
+#checking dir?
 clear
+if [ ! -d "$HOME/T-Lyock" ]; then
+echo -e '\033[1;91m[!] Install T-Lock to $HOME Diretory, Case T-Lock Not Works Properly.\033[0m'
+fi
 
 #packages
 command -v figlet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require figlet but it's not installed, Now Installing.\e[0m"; pkg install figlet -y; clear; connection="$(ping -c 1 -q www.google.com >&/dev/null; echo $?)"
@@ -44,6 +48,7 @@ echo -e "\033[1;91m                             [\033[1;92m-\033[1;91m] No Inter
    exit
 fi ;  bash t-lock.sh; }
 
+#banner
 sleep 0.5
 echo -e '
 
