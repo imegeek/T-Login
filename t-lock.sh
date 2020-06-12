@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/data/data/com.termux/files/use/bin/bash
 
 # Author : ABHacker Official
 # Copyright : ©2020-25-May
