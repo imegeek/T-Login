@@ -1,5 +1,3 @@
-[![github](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/abhackerofficial)
-
 [![GitHub stars](https://img.shields.io/github/stars/abhackerofficial/T-Lock.svg?style=social)](https://github.com/abhackerofficial)
 [![GitHub followers](https://img.shields.io/github/followers/abhackerofficial.svg?style=social)](https://github.com/abhackerofficial)
 [![GitHub forks](https://img.shields.io/github/forks/abhackerofficial/T-Lock.svg?style=social)](https://github.com/abhackerofficial)
