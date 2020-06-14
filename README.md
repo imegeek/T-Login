@@ -1,5 +1,6 @@
+[![github](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/abhackerofficial)
+[![GitHub stars](https://img.shields.io/github/stars/abhackerofficial/T-Lock.svg?style=social)](https://github.com/abhackerofficial)
 
-                T-Lock
 ![IMG_20200608_232036](https://user-images.githubusercontent.com/63346676/84063549-d59ea800-a9de-11ea-9706-e4ec2ee90d49.jpg)
 #
 
