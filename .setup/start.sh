@@ -5,35 +5,34 @@ sleep 0.5
 
 echo '
 
-                         █▀▀ █▀█ █▄ █ ▀█▀ █▀   █▀▀ █ █   █▀▀
-                         █▀  █▄█ █ ▀█  █  ▄█   █▀  █ █▄▄ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-
+█▀▀ █▀█ █▄ █ ▀█▀ █▀   █▀▀ █ █   █▀▀
+█▀  █▄█ █ ▀█  █  ▄█   █▀  █ █▄▄ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ' | lolcat -a -d 1 -t -s 100
 sleep 0.2
-echo -e '                 \033[1;100m    [1] ANSI S    \033[1;104m     [2] ANSI R   \033[101m  [3] Block   \033[0m'
+echo -e '\033[1;100m [1] ANSI S  \033[1;104m [2] ANSI R      \033[101m [3] Block    \033[0m'
 echo
-echo -e '                     \033[1;100m  [4] mono12    \033[1;104m  [5] Cybermedium \033[101m [6] Fire Font-s \033[0m'
+echo -e '\033[1;100m [4] mono12  \033[1;104m [5] Cybermedium \033[101m [6] Fire     \033[0m'
 echo
-echo -e '               \033[1;100m    [7] Kban  \033[1;104m   [8] Shadow   \033[101m    [9] Sub-Zero  \033[0m'
+echo -e '\033[1;100m [7] Kban    \033[1;104m [8] Shadow      \033[101m [9] Sub-Zero \033[0m'
 echo
-echo -e '                    \033[1;100m     [10] sblood  \033[1;104m [P] Preview Fonts \033[101m  [E] Exit   \033[0m'
+echo -e '\033[1;100m [10] sblood \033[1;104m [P] Preview     \033[101m [E] Exit     \033[0m'
 echo
 
-printf "                                  \e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m[\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m!\e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m]\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m Choose a Font: \e[0m"
+printf "\e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m[\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m!\e[0;1$(( $RANDOM * 6 / 32767 + 1 ))m]\e[1;3$(( $RANDOM * 6 / 32767 + 1 ))m Choose a Font: \e[0m"
 read font
     if [[ $font = "1" ]] || [[ $font = "01" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -121,11 +120,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -135,14 +134,14 @@ elif [[ $font = "2" ]] || [[ $font = "02" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -230,11 +229,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -244,14 +243,14 @@ elif [[ $font = "3" ]] || [[ $font = "03" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -339,11 +338,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -353,14 +352,14 @@ elif [[ $font = "4" ]] || [[ $font = "04" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -447,11 +446,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -461,14 +460,14 @@ elif [[ $font = "5" ]] || [[ $font = "05" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -556,12 +555,12 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -571,14 +570,14 @@ elif [[ $font = "6" ]] || [[ $font = "06" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -666,11 +665,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -680,14 +679,14 @@ elif [[ $font = "7" ]] || [[ $font = "07" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -775,11 +774,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -789,14 +788,14 @@ elif [[ $font = "8" ]] || [[ $font = "08" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -884,11 +883,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -898,14 +897,14 @@ elif [[ $font = "9" ]] || [[ $font = "09" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -993,11 +992,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -1007,14 +1006,14 @@ elif [[ $font = "10" ]]
         then clear
 echo '
 
-                         █   █▀█ █▀▀ █ █▄ █   █▀█ ▄▀█ █▀▀ █▀▀
-                         █▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
-                         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
-printf $'\n\e[1;96m                         [\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
+█   █▀█ █▀▀ █ █▄ █   █▀█ █▀█ █▀▀ █▀▀
+█▄▄ █▄█ █▄█ █ █ ▀█   █▀▀ █▀█ █▄█ ██▄
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄' | lolcat -a -d 1 -t -s 100
+printf $'\n\e[1;96m[\e[0m\e[1;77m*\e[0m\e[1;96m] Type your name here: \e[1;96m'
 read name
-printf $'\n\e[1;94m                         [\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
+printf $'\n\e[1;94m[\e[0m\e[1;77m*\e[0m\e[1;94m] Type your username here: \e[1;94m'
 read username
-printf $'\n\e[1;91m                         [\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
+printf $'\n\e[1;91m[\e[0m\e[1;77m*\e[0m\e[1;91m] Type your password here: \e[1;91m'
 read password
 
 #setup
@@ -1102,11 +1101,11 @@ echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo 'bash /data/data/com.termux/files/usr/etc/tlock' >> zshrc
 sleep 0.5
-echo -e '\033[1;92m                [✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
+echo -e '\033[1;92m[✓] Restart Termux Or Open a New Session to See Changes [✓]\e[0m'
 
 sleep 0.4
 echo
-printf "\e[1;92m                         [?] Are You Want to Change Again [Y/n] : \e[0m"
+printf "\e[1;92m[?] Are You Want to Change Again [Y/n] : \e[0m"
 read Q
 if [[ $Q = "y" ]] || [[ $Q = "Y" ]]
         then cd $HOME && cd T-Lock && cd .setup && bash start.sh
@@ -1116,16 +1115,16 @@ elif [[ $font = "p" ]] || [[ $font = "P" ]]
         then clear
 cd fonts && bash preview.sh
 echo
-printf "    \e[0m[\e[1;92m*\e[0m]\e[1;92m Press Enter To Back: \e[1;93m"
+printf "\e[0m[\e[1;92m*\e[0m]\e[1;92m Press Enter To Back: \e[1;93m"
 read a1
 sleep 0.4
 cd .. && bash start.sh
 
 elif [[ $font = "e" ]] || [[ $font = "E" ]]
         then exec sleep 1
-else 
+else
 echo
-printf "\e[1;91m                            [!] Invalid option! ~Restarting..\e[0m\n"
+printf "\e[1;91m[!] Invalid option! ~Restarting..\e[0m\n"
 sleep 0.8
 bash start.sh
 fi

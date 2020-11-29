@@ -1,7 +1,7 @@
 cd $HOME && cd ../usr/etc && rm tlock > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm bash.bashrc > /dev/null 2>&1
 cd $HOME && cd ../usr/etc && rm zshrc > /dev/null 2>&1
-sleep 3.0
+sleep 1.0
 
 #setup motd
 echo > motd
@@ -46,6 +46,6 @@ echo 'setopt +o nomatch' >> zshrc
 echo '. /data/data/com.termux/files/usr/etc/profile' >> zshrc
 echo "PS1='%# '" >> zshrc
 echo
-echo -e '\033[1;93m                        [✓] Reset Configure Successfully [✓]'
+echo -e '\033[1;93m[✓] Reset Configure Successfully [✓]'
 echo
 exec sleep 1
