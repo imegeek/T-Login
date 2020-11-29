@@ -56,6 +56,6 @@ elif [[ $input = "4" ]] || [[ $input = "04" ]]
 else
 echo
 printf "\e[1;95m[!] Invalid option! ~Restarting..\e[0m\n"
-sleep 0.8
-bash t-lock.sh
+sleep 0.3
+bash t-login.sh
 fi
