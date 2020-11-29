@@ -7,5 +7,5 @@
 ### • Quick Installation:
 
 ```
-git clone https://github.com/abhackerofficial/T-Lock &&
-cd T-Lock && bash t-lock.sh
+git clone https://github.com/abhackerofficial/T-Login &&
+cd T-Login && bash t-login.sh
